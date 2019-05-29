@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="father" />
+        <module name="function" />
+        <module name="login" />
+        <module name="save" />
+        <module name="stimulator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service-login" target="1.8" />
+      <module name="wordcounter" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="father" options="-parameters" />
+      <module name="function" options="-parameters" />
+      <module name="login" options="-parameters" />
+      <module name="save" options="-parameters" />
+      <module name="service-login" options="-parameters" />
+      <module name="stimulator" options="-parameters" />
+      <module name="wordcounter" options="" />
+    </option>
+  </component>
+</project>
