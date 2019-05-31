@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: Simulation
+    name: simulation
 eureka:
   client:
     serviceUrl:

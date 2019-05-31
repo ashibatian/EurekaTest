@@ -1,0 +1,23 @@
+
+server:
+  port: 8766
+
+spring:
+  application:
+    name: Zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    simulation-service:
+      path: /simulation/**
+      serviceId: simulation
+    save-service:
+      path: /save/**
+      serviceId: save
+
+
+

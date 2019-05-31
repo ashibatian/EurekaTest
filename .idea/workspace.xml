@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="650e5290-a882-4faa-995e-1a804f803e4e" name="Default Changelist" comment="" />
+    <list default="true" id="650e5290-a882-4faa-995e-1a804f803e4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/StimulatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stimulator/src/test/java/com/example/stimulator/StimulatorApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -12,6 +29,8 @@
     <ignored path="$PROJECT_DIR$/wordcounter/target/" />
     <ignored path="$PROJECT_DIR$/stimulator/target/" />
     <ignored path="$PROJECT_DIR$/save/target/" />
+    <ignored path="$PROJECT_DIR$/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/simulation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +42,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/save/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulation/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java">
+        <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="310">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,88 +75,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save/src/test/java/com/example/save/SaveApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/SimulationApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stimulator/pom.xml">
+        <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stimulator/src/test/java/com/example/stimulator/StimulatorApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/StimulatorApplication.java">
+        <entry file="file://$PROJECT_DIR$/father.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/SimulationRemote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+            <state relative-caret-position="19">
+              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -137,11 +124,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/wordcounter/eurekaserver/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-hi/src/main/java/wordcounter/servicehi/ServiceHiApplication.java" />
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
         <option value="$PROJECT_DIR$/service-login/pom.xml" />
@@ -173,16 +161,26 @@
         <option value="$PROJECT_DIR$/login/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/function/src/main/java/father/function/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/function/src/main/java/father/function/Remote/HelloRemote.java" />
-        <option value="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java" />
-        <option value="$PROJECT_DIR$/stimulator/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/stimulator/pom.xml" />
         <option value="$PROJECT_DIR$/save/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/StimulatorApplication.java" />
         <option value="$PROJECT_DIR$/function/src/main/java/father/function/FunctionApplication.java" />
-        <option value="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" />
         <option value="$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/HelloRemote.java" />
         <option value="$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/SimulationRemote.java" />
         <option value="$PROJECT_DIR$/save/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/java/com/example/zuul/Filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/zuul/src/main/java/com/example/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java" />
+        <option value="$PROJECT_DIR$/stimulator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/StimulatorApplication.java" />
+        <option value="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" />
+        <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/stimulator/controller/SimulationController.java" />
+        <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/stimulator/StimulatorApplication.java" />
+        <option value="$PROJECT_DIR$/simulation/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/simulation/pom.xml" />
+        <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java" />
+        <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/SimulationApplication.java" />
       </list>
     </option>
   </component>
@@ -192,10 +190,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="20" />
-    <option name="width" value="1440" />
-    <option name="height" value="825" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -206,57 +205,85 @@
         <subPane>
           <expand>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="father" type="b2602c69:ProjectViewProjectNode" />
-              <item name="father" type="462c0819:PsiDirectoryNode" />
-              <item name="stimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,8 +296,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559115021488" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mygit/EurekaTest" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559300118973" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,12 +306,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\resources\static" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\resources\templates" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\static" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\META-INF\resources" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\templates" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\2318590073\IdeaProjects\father\simulation\src\main\java\com\example\simulation" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\simulation\src\main\resources" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\zuul\src\main\resources" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\save\src\main\resources" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\stimulator\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.save.Remote" />
@@ -293,12 +320,12 @@
       <recent name="Remote" />
       <recent name="Controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\2318590073\IdeaProjects\father\save\src\main\resources" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\stimulator\src\main\resources" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\java" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main" />
-      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\resources\static" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\function\src\main\resources\templates" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\static" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\META-INF\resources" />
+      <recent name="D:\Users\2318590073\IdeaProjects\father\wordcounter\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="All in service-login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-login" />
       <option name="PACKAGE_NAME" value="" />
@@ -377,8 +404,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimulationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simulation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.simulation.SimulationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StimulatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="stimulator" />
+      <module name="simulation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.stimulator.StimulatorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -387,6 +421,13 @@
     <configuration name="WordcounterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wordcounter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="father.wordcounter.WordcounterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -400,6 +441,8 @@
       <item itemvalue="Spring Boot.WordcounterApplication" />
       <item itemvalue="Spring Boot.StimulatorApplication" />
       <item itemvalue="Spring Boot.SaveApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.SimulationApplication" />
       <item itemvalue="Spring Boot.ServiceLoginApplication" />
     </list>
     <recent_temporary>
@@ -432,6 +475,9 @@
       <workItem from="1558508922256" duration="55000" />
       <workItem from="1559099327725" duration="6678000" />
       <workItem from="1559115167970" duration="19000" />
+      <workItem from="1559115459228" duration="79000" />
+      <workItem from="1559292009260" duration="7032000" />
+      <workItem from="1559299598464" duration="284000" />
     </task>
     <servers />
   </component>
@@ -441,12 +487,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43709000" />
+    <option name="totallyTimeSpent" value="51104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30093834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -456,7 +503,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,40 +545,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wordcounter/src/main/resources/a.txt" />
-    <entry file="file://$PROJECT_DIR$/wordcounter/src/main/resources/static/shakespeare.txt" />
-    <entry file="file://$PROJECT_DIR$/wordcounter/src/main/java/father/wordcounter/Remote/HelloRemote.java" />
-    <entry file="file://$PROJECT_DIR$/father.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordcounter/target/classes/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/src/main/java/Remote/HelloRemote.java" />
-    <entry file="file://$PROJECT_DIR$/function/src/main/java/Controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/wordcounter/pom.xml" />
     <entry file="file://$PROJECT_DIR$/wordcounter/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/wordcounter/src/main/java/father/wordcounter/Controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/function/src/main/resources/static/shakespeare.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/main/resources/static/shakespeare.txt" />
     <entry file="file://$PROJECT_DIR$/wordcounter/src/main/java/father/wordcounter/WordcounterApplication.java" />
     <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Configuration/MyURLPatternConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/function/target/classes/application.properties" />
@@ -578,13 +594,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wordcounterfunc/src/main/java/father/function/FunctionApplication.java" />
     <entry file="file://$PROJECT_DIR$/wordcounterfunc/src/main/java/father/function/Controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/function/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -598,78 +607,14 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot/pom.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/src/main/java/father/login/LoginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="75" selection-start-line="16" selection-start-column="4" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stimulator/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/login/pom.xml" />
     <entry file="file://$PROJECT_DIR$/save/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/save/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/FunctionApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Remote/HelloRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/FunctionApplication.java" />
+    <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Remote/HelloRemote.java" />
     <entry file="file://$PROJECT_DIR$/save/src/test/java/com/example/save/SaveApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -680,53 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stimulator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stimulator/src/test/java/com/example/stimulator/StimulatorApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/StimulatorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/SimulationRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/test/java/com/example/stimulator/StimulatorApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/save/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -734,21 +633,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function/pom.xml">
+    <entry file="file://$PROJECT_DIR$/function/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/example/zuul/Filter/AccessFilter.java" />
+    <entry file="file://$PROJECT_DIR$/function/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/example/zuul/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java">
+    <entry file="file://$PROJECT_DIR$/login/src/main/resources/application.yml" />
+    <entry file="file://$USER_HOME$/Desktop/exe4.lsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="-407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/src/main/java/father/login/LoginApplication.java" />
+    <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/SimulationRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/main/java/com/example/stimulator/controller/SimulationController.java" />
+    <entry file="file://$PROJECT_DIR$/www/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/www/src/main/java/com/example/stimulator/StimulatorApplication.java" />
+    <entry file="file://$PROJECT_DIR$/save/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/SimulationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/father.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

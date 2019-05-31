@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="EurekaTest" />
         <module name="father" />
         <module name="function" />
         <module name="login" />
         <module name="save" />
-        <module name="stimulator" />
+        <module name="simulation" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,14 +23,16 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaTest" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="father" options="-parameters" />
       <module name="function" options="-parameters" />
       <module name="login" options="-parameters" />
       <module name="save" options="-parameters" />
       <module name="service-login" options="-parameters" />
-      <module name="stimulator" options="-parameters" />
+      <module name="simulation" options="-parameters" />
       <module name="wordcounter" options="" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

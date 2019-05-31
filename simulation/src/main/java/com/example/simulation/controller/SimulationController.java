@@ -1,13 +1,10 @@
-package com.example.stimulator.controller;
+package com.example.simulation.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
 
-@RestController
 public class SimulationController {
     Map<String, Object> res;
     @PostMapping("/get")

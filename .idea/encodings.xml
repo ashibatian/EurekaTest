@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/function" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/save" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/stimulator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simulation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>
 </project>

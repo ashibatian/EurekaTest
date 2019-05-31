@@ -1,4 +1,4 @@
-package com.example.stimulator;
+package com.example.simulation;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class StimulatorApplicationTests {
+public class SimulationApplicationTests {
 
     @Test
     public void contextLoads() {
