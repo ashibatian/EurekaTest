@@ -12,11 +12,15 @@
         <module name="function" />
         <module name="login" />
         <module name="save" />
+        <module name="server" />
         <module name="simulation" />
+        <module name="statistics" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hystrix" target="1.8" />
+      <module name="integrator" target="1.8" />
       <module name="service-login" target="1.8" />
       <module name="wordcounter" target="1.7" />
     </bytecodeTargetLevel>
@@ -27,10 +31,14 @@
       <module name="eureka-server" options="-parameters" />
       <module name="father" options="-parameters" />
       <module name="function" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="integrator" options="-parameters" />
       <module name="login" options="-parameters" />
       <module name="save" options="-parameters" />
+      <module name="server" options="-parameters" />
       <module name="service-login" options="-parameters" />
       <module name="simulation" options="-parameters" />
+      <module name="statistics" options="-parameters" />
       <module name="wordcounter" options="" />
       <module name="zuul" options="-parameters" />
     </option>

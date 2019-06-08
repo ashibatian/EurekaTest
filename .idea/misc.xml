@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/save/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/simulation/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/integrator/pom.xml" />
+        <option value="$PROJECT_DIR$/statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
